@@ -1659,7 +1659,7 @@ public class WifiStaIfaceAidlImpl implements IWifiStaIface {
     }
 
     private void handleServiceSpecificException(ServiceSpecificException e, String methodStr) {
-        Log.e(TAG, methodStr + " failed with service-specific exception: " + e);
+        Log.d(TAG, methodStr + " failed with service-specific exception: " + e);
     }
 
     private void handleIllegalArgumentException(IllegalArgumentException e, String methodStr) {
